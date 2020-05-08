@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="block" id="block">
+        <img src="images/blue.png" alt="blue" id="blue" width="70px" onclick="burst('blue')">
+        <img src="images/green.png" alt="green" id="green" width="70px" onclick="burst('green')">
+        <img src="images/orange.png" alt="orange" id="orange" width="70px" onclick="burst('orange')">
+        <img src="images/red.png" alt="red" id="red" width="70px" onclick="burst('red')">
+        <img src="images/gray.png" alt="gray" id="gray" width="70px" onclick="burst('gray')">
+    </div>
+    <div class="dock">
+        <div class="reset-dock">
+            <img id="reset" onclick="location.reload()" src="images/reset.png" alt="reset">
+        </div>
+        <div class="balloon-dock">
+            <h1 id="balloon-color">Color</h1>
+        </div>
+        <div class="score-board">
+            <h1 id="score">0</h1>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>
